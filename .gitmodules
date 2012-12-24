@@ -1,0 +1,3 @@
+[submodule "sources_plugins/vim-markdown"]
+	path = sources_plugins/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown.git

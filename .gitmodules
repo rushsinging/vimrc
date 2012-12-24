@@ -1,3 +1,9 @@
 [submodule "sources_plugins/vim-markdown"]
 	path = sources_plugins/vim-markdown
 	url = git://github.com/plasticboy/vim-markdown.git
+[submodule "sources_plugins/molokai"]
+	path = sources_plugins/molokai
+	url = git://github.com/tomasr/molokai.git
+[submodule "sources_plugins/vim-colors-solarized"]
+	path = sources_plugins/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

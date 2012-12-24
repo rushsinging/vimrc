@@ -1,0 +1,39 @@
+set background=dark,V
+call togglebg#map("<F5>"),v
+y,v
+t,v
+i,v
+l,v
+b,v
+s,v
+v,v
+let g:solarized_visibility="high",V
+n,v
+o,v
+r,v
+set g:solarized_termcolors=16,V
+sudo update-alternatives âconfig x-terminal-emulator,v
+6,v
+1,v
+5,v
+2,v
+g:solarized_termcolors=16,v
+,V
+ubuntu vim Solarized,v
+set foldcolumn=1,v
+g:molokai_original,v
+set t_Co=256,v
+colorscheme ron,V
+colorscheme molokai,V
+call togglebg#map("<F5>") ,V
+call togglebg#map("<F5>") ,v
+map <F5> :!python %<cr>,V
+def abc():,V
+    ldsjalfjdslddddd,V
+d,v
+:,V
+git://github.com/altercation/vim-colors-solarized.git,v
+git://github.com/tomasr/molokai.git,v
+git://github.com/majutsushi/tagbar.git,v
+/,v
+yankring_history_v2.txt,v

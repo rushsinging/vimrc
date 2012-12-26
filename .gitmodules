@@ -13,3 +13,6 @@
 [submodule "sources_plugins/solarized"]
 	path = sources_plugins/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "sources_plugins/jedi"]
+	path = sources_plugins/jedi
+	url = git://github.com/davidhalter/jedi-vim.git

@@ -1,3 +1,15 @@
+s,v
+p,v
+t,v
+h,v
+x,v
+https://github.com/rushsinging/vimrc.git,v
+abc(a, b, c_,V
+a,v
+b,v
+c,v
+(,v
+),v
 git submodule updategit submodule init ,V
 git submodule updategit submodule init ,v
 hg clone https://bitbucket.org/ns9tks/vim-autocomplpop ~/.vim_runtime/sources_plugins/vim-autocomplpop,V
@@ -5,10 +17,7 @@ hg clone https://bitbucket.org/ns9tks/vim-l9 ~/.vim_runtime/sources_plugins/vim-
 git clone https://github.com/nvie/vim-flake8.git ~/.vim_runtime/sources_plugins/vim-flake8,V
 sudo easy_install flake8,V
 e,v
-t,v
-a,v
 d,v
-p,v
 u,v
 git submodule update,V
     let s:vmode       = "gui"    let s:base03      = "#002b36"    let s:base02      = "#073642"    let s:base01      = "#586e75"    let s:base00      = "#657b83"    let s:base0       = "#839496"    let s:base1       = "#93a1a1"    let s:base2       = "#eee8d5"    let s:base3       = "#fdf6e3"    let s:yellow      = "#b58900"    let s:orange      = "#cb4b16"    let s:red         = "#dc322f"    let s:magenta     = "#d33682"    let s:violet      = "#6c71c4"    let s:blue        = "#268bd2"    let s:cyan        = "#2aa198"    "let s:green       = "#859900" "original    let s:green       = "#719e07" "experimental,V
@@ -20,10 +29,6 @@ let g:jedi#autocompletion_command = "<C-Space>",v
 8,v
 F,v
 <,v
-),v
-(,v
-c,v
-b,v
 :,v
 j,v
 l,v

@@ -10,3 +10,6 @@
 [submodule "sources_plugins/yankring"]
 	path = sources_plugins/yankring
 	url = git://github.com/vim-scripts/YankRing.vim.git
+[submodule "sources_plugins/solarized"]
+	path = sources_plugins/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

@@ -1,1 +1,23 @@
+/,v
+.,v
+s,v
+),v
+(,v
+y,v
+<imput type='hide' name='qid' value='{{ qid }}'/>,V
+                a_score_list=a_score_list),V
+                q_score_list=q_score_list,,V
+    q_score = score.filter(Score.question_id == qid,                           Score.score_type == 'question',                           Score.is_expand == 0,                           Score.is_seg == 0).all()    a_score = score.filter(Score.question_id == qid,                           Score.is_expand == 0,                           Score.is_seg == 0,                           Score.score_type == 'article').all()    q_score_dict = {}    for i in q_score:        if i.result in q_score_dict.keys():            q_score_dict[i.result].append(str(i.score_id))        else:            q_score_dict[i.result] = [str(i.score_id)]    a_score_dict = {}    for i in a_score:        if i.result in a_score_dict.keys():            a_score_dict[i.result].append(str(i.score_id))        else:            a_score_dict[i.result] = [str(i.score_id)]    q_score_list = [(json.loads(k), v) for k, v in q_score_dict.items()]    a_score_list = [(json.loads(k), v) for k, v in a_score_dict.items()],V
+    score = session.query(Score),V
+>,v
+r,v
+c,v
+<,v
+e,v
+u,v
+q,v
+j,v
+,V
+        <script type='text/javascript' src='/static/js/jquery.js'></script>,V
+'''''',V
 set runtimepath+=~/.vim_runtime,V

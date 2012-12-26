@@ -1,12 +1,15 @@
+call pathogen#infect("~/.vim_runtime/sources_plugins")
+
 set t_Co=256
+
+set foldcolumn=0
+
+set nu
 
 let g:solarized_termcolors=256
 let g:solarized_visibility="high"
 let g:solarized_contrast="high"
 colorscheme solarized 
-call togglebg#map("<F5>")
+call togglebg#map("<F6>")
 
-set foldcolumn=0
-
-set nu
-call pathogen#infect("~/.vim_runtime/sources_plugins")
+map <F5> :!python %<cr>

@@ -1,6 +1,1 @@
-    q_list = questions.order_by(Question.question_id.desc()).filter().offset((page - 1) * PAGE_LENGTH).limit(PAGE_LENGTH).all(),V
-;,v
-,V
-set t_Co=256,V
-fadslfj,V
-1,v,V
+set runtimepath+=~/.vim_runtime,V

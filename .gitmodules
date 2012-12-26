@@ -16,3 +16,6 @@
 [submodule "sources_plugins/jedi"]
 	path = sources_plugins/jedi
 	url = git://github.com/davidhalter/jedi-vim.git
+[submodule "sources_plugins/vim-flake8"]
+	path = sources_plugins/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git

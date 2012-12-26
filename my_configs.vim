@@ -10,6 +10,7 @@ let g:solarized_termcolors=256
 let g:solarized_visibility="high"
 let g:solarized_contrast="high"
 colorscheme solarized 
+set background=dark
 call togglebg#map("<F6>")
 
 map <F5> :!python %<cr>

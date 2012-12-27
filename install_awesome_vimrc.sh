@@ -11,10 +11,24 @@ source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 
+rm ~/.vim_runtime/y_configs.vim
+touch ~/.vim_runtime/my_configs.vim
 try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
+
+echo 'call pathogen#infect("~/.vim_runtime/sources_plugins")
+
+set foldcolumn=0
+
+set nu
+
+set t_Co=16
+colorscheme solarized 
+call togglebg#map("<F6>")
+
+map <F5> :!python %<cr>' >>~/.vim_runtime/my_configs.vim
 
 
 cd

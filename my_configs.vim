@@ -1,6 +1,5 @@
 call pathogen#infect("~/.vim_runtime/sources_plugins")
 
-
 set foldcolumn=0
 
 set nu

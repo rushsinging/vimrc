@@ -45,6 +45,11 @@ ln -s ~/.vim_runtime/tools/dircolors-solarized/dircolors.ansi-dark ~/.dircolors
 echo 'dircolors ~/.dircolors >> /tmp/dircolors' >> ~/.bashrc
 cd
 
-echo 'source ~/.vim_runtime/.dircolors' >> ~/.bashrc
+echo
+echo 'If you want to use the solarized colors in the terminal, please run:
+    sh ~/.vim_runtime/make_dircolors.sh 
+and add source ~/.vim_runtime/.dircolors to you bashrc
+and do not forget to use ls --color=auto :)'
+echo
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"

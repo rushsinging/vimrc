@@ -1,3 +1,7 @@
+cd 
+rm .vimrc
+touch .vimrc
+
 cd ~/.vim_runtime
 
 echo 'set runtimepath+=~/.vim_runtime
@@ -11,5 +15,12 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
+
+
+cd
+sh ~/.vim_runtime/tools/gnome-terminal-colors-solarized/set_dark.sh
+ln -s ~/.vim_runtime/tools/dircolors-solarized/dircolors.ansi-dark ~/.dircolors
+echo 'dircolors ~/.dircolors >> /tmp/dircolors'
+cd
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"

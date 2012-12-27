@@ -21,4 +21,4 @@
 	url = git://github.com/seebi/dircolors-solarized.git
 [submodule "tools/gnome-terminal-colors-solarized"]
 	path = tools/gnome-terminal-colors-solarized
-	url = git://github.com/coolwanglu/gnome-terminal-colors-solarized.git
+	url = git://github.com/sigurdga/gnome-terminal-colors-solarized.git 

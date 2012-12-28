@@ -34,7 +34,10 @@ echo
 echo 'If you want to use the solarized colors in the terminal, please make sure you have dircolors and run:
     sh ~/.vim_runtime/make_dircolors.sh 
 and add source ~/.vim_runtime/.dircolors to you bashrc
-and do not forget to use ls --color=auto :)'
+and do not forget to use ls --color=auto :)
+
+If this has no effect you kan check the file <~/.vim_runtime/.dircolors>.
+It may contains some <Syntax error> which confused me a lot.'
 echo
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"

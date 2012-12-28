@@ -1,6 +1,8 @@
 # The Ultimate vimrc(Copy from [vimrc](https://github.com/amix/vimrc))
 
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
+'Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.' by Author
+And as a Vimer, I have used this setting for vim for a long time.
+
 
 There are two versions:
 
@@ -26,7 +28,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 
-## How to install on Windows(this is original vimrc without solarized settings)?
+## How to install on Windows(original vimrc without solarized settings)?
 
 Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
 

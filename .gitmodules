@@ -43,3 +43,12 @@
 [submodule "tools/bufexplorer"]
 	path = tools/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "sources_plugins/bufexplorer"]
+	path = sources_plugins/bufexplorer
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "sources_plugins/ctrlp"]
+	path = sources_plugins/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git
+[submodule "sources_plugins/nerdtree"]
+	path = sources_plugins/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git

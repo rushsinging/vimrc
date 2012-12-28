@@ -30,6 +30,8 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	git clone git://github.com/rushsinging/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
+Tested on mac(Mac X OS 10.8.2) and ubuntu(12.04)
+
 
 ## How to install on Windows(original vimrc without solarized settings)?
 
@@ -58,16 +60,14 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru and tag finder. In my config it's mapped to `<Ctrl+F>`, because `<Ctrl+P>` is used by YankRing
 * [mru.vim](https://github.com/vim-scripts/mru.vim): Plugin to manage Most Recently Used (MRU) files. Includes my own fork which adds syntax highlighting to MRU. This plugin can be opened with `<leader+f>`
 * [open_file_under_cursor.vim](https://github.com/amix/open_file_under_cursor.vim): Open file under cursor when pressing `gf`
-* more plugins are in <sources_plugins>
+* [jedi](https://github.com/davidhalter/jedi.git): a auto complete plugin for python.(Performs well with [vim-autocomplpop](https://bitbucket.org/ns9tks/vim-autocomplpop))
+* more plugins are in *source_plugins*
 
 
 ## What color schemes are included?
 
-* [peaksea](https://github.com/vim-scripts/peaksea): My favorite!
-* [vim-irblack](https://github.com/wgibbs/vim-irblack)
-* [mayansmoke](https://github.com/vim-scripts/mayansmoke)
-* [vim-pyte](https://github.com/therubymug/vim-pyte)
 * [vim-solarized](https://github.com/altercation/vim-colors-solarized.git)
+* [molokai](http://www.vim.org/scripts/script.php?script_id=521)
 
 
 ## What modes are included?
@@ -109,10 +109,6 @@ Open [MRU.vim](https://github.com/vim-scripts/mru.vim) and see the recently open
 Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin:
     
     let g:ctrlp_map = '<c-f>'
-
-Open [PeepOpen](https://peepcode.com/products/peepopen) plugin:
-
-    map <leader>j :PeepOpen<cr>
 
 Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
 
@@ -161,6 +157,7 @@ Useful mappings for managing tabs:
 	map <leader>to :tabonly<cr>
 	map <leader>tc :tabclose<cr>
 	map <leader>tm :tabmove 
+	map <leader>tt :tabnext
 	
 	" Opens a new tab with the current buffer's path
 	" Super useful when editing files in the same directory

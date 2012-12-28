@@ -61,6 +61,13 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" For pythoner
+map <F5> :!python %<cr>
+
+
+" For vsplit and split
+map <leader>e :vsplit<cr>
+map <leader>E :split<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -122,14 +129,21 @@ set t_vb=
 set tm=500
 
 " Add a bit extra margin to the left
-set foldcolumn=1
+set foldcolumn=0
 
+" Show line number
+set nu
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable 
+
+try
+    colorscheme desert
+catch
+endtry
 
 set background=dark
 

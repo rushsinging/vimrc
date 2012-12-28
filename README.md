@@ -1,7 +1,10 @@
 # The Ultimate vimrc(Copy from [vimrc](https://github.com/amix/vimrc))
 
 'Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.' by Author
-And as a Vimer, I have used this setting for vim for a long time.
+
+And as a Vimer, I have used this settings of vim for a long time.
+
+Lucky to use and carefully to modify it.
 
 
 There are two versions:

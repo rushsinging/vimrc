@@ -52,3 +52,36 @@
 [submodule "sources_plugins/nerdtree"]
 	path = sources_plugins/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "sources_plugins/ask"]
+	path = sources_plugins/ask
+	url = git://github.com/mileszs/ack.vim.git
+[submodule "sources_plugins/tlib"]
+	path = sources_plugins/tlib
+	url = git://github.com/vim-scripts/tlib.git
+[submodule "sources_plugins/open_file_under_cursor"]
+	path = sources_plugins/open_file_under_cursor
+	url = git://github.com/amix/open_file_under_cursor.vim.git
+[submodule "sources_plugins/vim-less"]
+	path = sources_plugins/vim-less
+	url = git://github.com/groenewege/vim-less.git
+[submodule "sources_plugins/vim-bundle-mako"]
+	path = sources_plugins/vim-bundle-mako
+	url = git://github.com/sophacles/vim-bundle-mako.git
+[submodule "sources_plugins/vim-coffee-script"]
+	path = sources_plugins/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "sources_plugins/vim-surround"]
+	path = sources_plugins/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "sources_plugins/vim-snipmate"]
+	path = sources_plugins/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+[submodule "sources_plugins/snipmate-snippets"]
+	path = sources_plugins/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git
+[submodule "sources_plugins/vim-addon-manager-known-repositories"]
+	path = sources_plugins/vim-addon-manager-known-repositories
+	url = git://github.com/MarcWeber/vim-addon-manager-known-repositories.git
+[submodule "sources_plugins/vim-addon-mw-utils"]
+	path = sources_plugins/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git

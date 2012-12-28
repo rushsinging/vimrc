@@ -10,9 +10,9 @@ Lucky to use and carefully to modify it.
 There are two versions:
 
 * **Basic**: If you want something small just copy [basic.vim](https://github.com/rushsinging/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
-* **Awesome**: This includes a ton of useful plugins, color schemes and configurations
+* **Jade**: This includes a ton of useful plugins, color schemes and configurations
 
-I would of course recommend using the awesome version.
+I would of course recommend using the jade version.
 
 
 ## How to install the Basic version?
@@ -24,11 +24,11 @@ This is useful to install on remote servers where you don't need many plugins an
 	sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
-## How to install the Awesome version?
-The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
+## How to install the Jade version?
+The Jade version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
 	git clone git://github.com/rushsinging/vimrc.git ~/.vim_runtime
-	sh ~/.vim_runtime/install_awesome_vimrc.sh
+	sh ~/.vim_runtime/install_jade_vimrc.sh
 
 Tested on mac(Mac X OS 10.8.2) and ubuntu(12.04)
 

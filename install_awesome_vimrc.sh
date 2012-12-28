@@ -31,7 +31,7 @@ echo 'dircolors ~/.dircolors >> /tmp/dircolors' >> ~/.bashrc
 cd
 
 echo
-echo 'If you want to use the solarized colors in the terminal, please run:
+echo 'If you want to use the solarized colors in the terminal, please make sure you have dircolors and run:
     sh ~/.vim_runtime/make_dircolors.sh 
 and add source ~/.vim_runtime/.dircolors to you bashrc
 and do not forget to use ls --color=auto :)'

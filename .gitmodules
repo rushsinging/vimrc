@@ -22,3 +22,21 @@
 [submodule "tools/gnome-terminal-colors-solarized"]
 	path = tools/gnome-terminal-colors-solarized
 	url = git://github.com/sigurdga/gnome-terminal-colors-solarized.git
+[submodule "tools/osx-lion-terminal.app-colors-solarized"]
+	path = tools/osx-lion-terminal.app-colors-solarized
+	url = git://github.com/tomislav/osx-lion-terminal.app-colors-solarized.git
+[submodule "sources_plugins/mru"]
+	path = sources_plugins/mru
+	url = git://github.com/vim-scripts/mru.vim.git
+[submodule "sources_plugins/closetag"]
+	path = sources_plugins/closetag
+	url = git://github.com/docunext/closetag.vim.git
+[submodule "sources_plugins/vim-css-color"]
+	path = sources_plugins/vim-css-color
+	url = https://github.com/skammer/vim-css-color
+[submodule "tools/nerdtree"]
+	path = tools/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "tools/ctrlp"]
+	path = tools/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git

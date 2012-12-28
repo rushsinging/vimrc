@@ -10,12 +10,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set background=dark
 
-if has("gui_running")
-    colorscheme peaksea
-else
-    colorscheme ir_black
-endif
-
 " Set font according to system
 if has("mac") || has("macunix")
     set gfn=Menlo:h14

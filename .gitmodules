@@ -88,3 +88,6 @@
 [submodule "sources_plugins/vim-powerline"]
 	path = sources_plugins/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
+[submodule "sources_plugins/vim-slime"]
+	path = sources_plugins/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git

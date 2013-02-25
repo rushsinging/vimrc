@@ -25,9 +25,6 @@ git submodule init
 git submodule update
 cd
 sh ~/.vim_runtime/tools/gnome-terminal-colors-solarized/set_dark.sh
-rm ~/.dircolors
-ln -s ~/.vim_runtime/tools/dircolors-solarized/dircolors.ansi-dark ~/.dircolors
-echo 'dircolors ~/.dircolors >> /tmp/dircolors' >> ~/.bashrc
 cd
 
 echo

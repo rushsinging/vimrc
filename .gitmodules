@@ -103,3 +103,9 @@
 [submodule "sources_plugins/vim-fugitivie"]
 	path = sources_plugins/vim-fugitivie
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "sources_plugins/tabular"]
+	path = sources_plugins/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "sources_plugins/AutoComplPop"]
+	path = sources_plugins/AutoComplPop
+	url = git://github.com/vim-scripts/AutoComplPop.git

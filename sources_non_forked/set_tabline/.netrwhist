@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/jade/Documents/work/guokrplus/guokr/apps/sina_weibo/sina_weibo/script'
+let g:netrw_dirhist_2='/Users/jade/Documents/work/guokrplus/guokr/apps/dokodemo/dokodemo'
+let g:netrw_dirhist_3='/private/etc/ppp'
+let g:netrw_dirhist_4='/Users/jade/Documents/work/guokrplus/guokr/apps/dokodemo/dokodemo/templates/views'
+let g:netrw_dirhist_5='/Users/jade/.vim_runtime/sources_plugins/AutoComplPop'
+let g:netrw_dirhist_6='/usr/local/etc/bash_completion.d'
+let g:netrw_dirhist_7='/Users/jade/Downloads/alembic-0.4.2/alembic.egg-info'
+let g:netrw_dirhist_8='/Users/jade/Documents/work/guokrplus/guokr/apps/dokodemo/migration/versions'

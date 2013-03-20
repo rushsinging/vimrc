@@ -109,3 +109,9 @@
 [submodule "sources_plugins/AutoComplPop"]
 	path = sources_plugins/AutoComplPop
 	url = git://github.com/vim-scripts/AutoComplPop.git
+[submodule "sources_plugins/vim-autoclose"]
+	path = sources_plugins/vim-autoclose
+	url = git://github.com/Townk/vim-autoclose.git
+[submodule "sources_plugins/vim-tommorrow-theme"]
+	path = sources_plugins/vim-tommorrow-theme
+	url = git://github.com/chriskempson/vim-tomorrow-theme.git

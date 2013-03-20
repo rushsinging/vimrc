@@ -62,7 +62,6 @@ map <leader>j :PeepOpen<cr>
 """"""""""""""""""""""""""""""
 ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
 snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
-let g:acp_behaviorSnipmateLength = 1
 
 
 """"""""""""""""""""""""""""""

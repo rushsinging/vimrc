@@ -118,3 +118,6 @@
 [submodule "sources_plugins/YouCompleteMe"]
 	path = sources_plugins/YouCompleteMe
 	url = git://github.com/Valloric/YouCompleteMe.git
+[submodule "sources_plugins/pyflakes-pathogen"]
+	path = sources_plugins/pyflakes-pathogen
+	url = git://github.com/mitechie/pyflakes-pathogen.git

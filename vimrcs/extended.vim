@@ -12,12 +12,12 @@ set background=dark
 
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Menlo:h14
+    set gfn=Menlo:h15
     set shell=/bin/bash
 elseif has("win16") || has("win32")
-    set gfn=Bitstream\ Vera\ Sans\ Mono:h10
+    set gfn=Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
-    set gfn=Monospace\ 10
+    set gfn=Monospace\ 11
     set shell=/bin/bash
 endif
 

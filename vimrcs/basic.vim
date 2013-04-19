@@ -64,6 +64,10 @@ nmap <leader>w :w!<cr>
 " For pythoner
 map <F5> :!python %<cr>
 
+" :W sudo saves the file 
+" (useful for handling the permission-denied error)
+command W w !sudo tee % > /dev/null
+
 
 " For vsplit and split
 map <leader>e :vsplit<cr>
@@ -191,8 +195,8 @@ set softtabstop=4
 set lbr
 set tw=500
 
-set ai
-set si
+set ai "Auto indent
+set si "Smart indent
 set wrap "Wrap lines
 
 
@@ -236,7 +240,7 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>tt :tabnext 
+map <leader>t<leader> :tabnext 
 
 " Opens a new tab with the current buffer's path
 " Super useful when editing files in the same directory
@@ -307,7 +311,7 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
 " Open vimgrep and put the cursor in the right position
-map <leader>g :vimgrep // **/*.*left><left><left><left><left><left><left>
+map <leader>g :vimgrep // **/*.<left><left><left><left><left><left><left>
 
 " Vimgreps in the current file
 map <leader><space> :vimgrep // <C-R>%<C-A><right><right><right><right><right><right><right><right><right>

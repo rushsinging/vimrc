@@ -124,3 +124,21 @@
 [submodule "sources_plugins/syntastic"]
 	path = sources_plugins/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "sources_plugins/vim-snippets"]
+	path = sources_plugins/vim-snippets
+	url = git://github.com/honza/vim-snippets.git
+[submodule "sources_plugins/zencoding-vim"]
+	path = sources_plugins/zencoding-vim
+	url = git://github.com/mattn/zencoding-vim.git
+[submodule "sources_plugins/vim-indent-object"]
+	path = sources_plugins/vim-indent-object
+	url = git://github.com/michaeljsmith/vim-indent-object.git
+[submodule "sources_plugins/vim-multiple-cursors"]
+	path = sources_plugins/vim-multiple-cursors
+	url = git://github.com/terryma/vim-multiple-cursors.git
+[submodule "sources_plugins/vim-expand-region"]
+	path = sources_plugins/vim-expand-region
+	url = git://github.com/terryma/vim-expand-region.git
+[submodule "sources_plugins/nginx"]
+	path = sources_plugins/nginx
+	url = git://github.com/vim-scripts/nginx.vim.git

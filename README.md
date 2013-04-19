@@ -71,9 +71,6 @@ I recommend reading the docs of these plugins to understand them better. Each of
 
 * [vim-solarized](https://github.com/altercation/vim-colors-solarized.git)
 * [molokai](http://www.vim.org/scripts/script.php?script_id=521)
-* [vim-irblack](https://github.com/wgibbs/vim-irblack)
-* [mayansmoke](https://github.com/vim-scripts/mayansmoke)
-* [vim-pyte](https://github.com/therubymug/vim-pyte)
 
 
 ## What modes are included?

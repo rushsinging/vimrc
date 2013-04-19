@@ -68,6 +68,8 @@ map <F5> :!python %<cr>
 " For vsplit and split
 map <leader>e :vsplit<cr>
 map <leader>E :split<cr>
+set splitbelow
+set splitright
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface

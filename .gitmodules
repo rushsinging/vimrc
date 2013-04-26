@@ -148,3 +148,6 @@
 [submodule "sources_plugins/python_vim"]
 	path = sources_plugins/python_vim
 	url = git://github.com/gg/python.vim.git
+[submodule "sources_plugins/python.vim"]
+	path = sources_plugins/python.vim
+	url = git://github.com/gg/python.vim.git

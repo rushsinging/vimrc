@@ -142,3 +142,9 @@
 [submodule "sources_plugins/nginx"]
 	path = sources_plugins/nginx
 	url = git://github.com/vim-scripts/nginx.vim.git
+[submodule "sources_plugins/python-mode"]
+	path = sources_plugins/python-mode
+	url = git://github.com/klen/python-mode.git
+[submodule "sources_plugins/python_vim"]
+	path = sources_plugins/python_vim
+	url = git://github.com/ikame/python.vim.git

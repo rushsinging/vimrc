@@ -147,4 +147,4 @@
 	url = git://github.com/klen/python-mode.git
 [submodule "sources_plugins/python_vim"]
 	path = sources_plugins/python_vim
-	url = git://github.com/ikame/python.vim.git
+	url = git://github.com/gg/python.vim.git

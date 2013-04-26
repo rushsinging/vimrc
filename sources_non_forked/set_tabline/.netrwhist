@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/jade/Documents/work/jAvalon/views'
 let g:netrw_dirhist_2='/Users/jade/Documents/work/guokrplus/guokr/apps'
 let g:netrw_dirhist_3='/Users/jade/Documents/work/guokrplus/guokr/apps/weixin/weixin'
 let g:netrw_dirhist_4='/Users/jade/Documents/work/guokrplus/guokr/apps/weixin/weixin/templates'
 let g:netrw_dirhist_5='/Users/jade/Documents/work/guokrplus/guokr/apps/ask/ask/apis'
+let g:netrw_dirhist_6='/Users/jade/Documents/work/guokrplus/frontend/src'

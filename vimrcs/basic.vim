@@ -70,8 +70,8 @@ command W w !sudo tee % > /dev/null
 
 
 " For vsplit and split
-map <leader>e :vsplit<cr>
-map <leader>E :split<cr>
+map <silent> <leader>e :vsplit<cr>
+map <silent> <leader>E :split<cr>
 set splitbelow
 set splitright
 
@@ -240,7 +240,8 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext 
+nnoremap <silent> <C-t> :tabnext<cr> 
+noremap <leader>tp :tabprevious<cr> 
 
 " Opens a new tab with the current buffer's path
 " Super useful when editing files in the same directory
@@ -355,13 +356,11 @@ map <leader>s? z=
 " Remove the Windows ^M - when the encodings gets messed up
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
-" Quickly open a buffer for scripbble
-map <leader>q :e ~/buffer<cr>
+" Quit
+map <silent> <leader>q :q!<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions

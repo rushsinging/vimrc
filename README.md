@@ -65,6 +65,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [taglist.vim](https://github.com/vim-scripts/taglist.vim): Source code browser (supports C/C++, java, perl, python, tcl, sql, php, etc)
 * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text style multiple selections for Vim, CTRL+N is remapped to CTRL+S (due to YankRing)
 * [vim-expand-region](https://github.com/terryma/vim-expand-region): Allows you to visually select increasingly larger regions of text using the same key combination.
+* ~~[syntastic](git://github.com/scrooloose/syntastic.git): A strong Syntax checking tool.~~
 
 
 ## What color schemes are included?

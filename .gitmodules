@@ -121,9 +121,6 @@
 [submodule "sources_plugins/pyflakes-pathogen"]
 	path = sources_plugins/pyflakes-pathogen
 	url = git://github.com/mitechie/pyflakes-pathogen.git
-[submodule "sources_plugins/syntastic"]
-	path = sources_plugins/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "sources_plugins/vim-snippets"]
 	path = sources_plugins/vim-snippets
 	url = git://github.com/honza/vim-snippets.git
@@ -157,3 +154,6 @@
 [submodule "sources_plugins/vim-jinja2"]
 	path = sources_plugins/vim-jinja2
 	url = git://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "sources_plugins/yaml-vim"]
+	path = sources_plugins/yaml-vim
+	url = https://github.com/vim-scripts/yaml.vim.git

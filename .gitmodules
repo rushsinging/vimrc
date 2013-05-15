@@ -157,3 +157,6 @@
 [submodule "sources_plugins/yaml-vim"]
 	path = sources_plugins/yaml-vim
 	url = https://github.com/vim-scripts/yaml.vim.git
+[submodule "sources_plugins/syntastic"]
+	path = sources_plugins/syntastic
+	url = git://github.com/scrooloose/syntastic.git

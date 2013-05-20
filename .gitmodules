@@ -160,3 +160,6 @@
 [submodule "sources_plugins/syntastic"]
 	path = sources_plugins/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "sources_plugins/python-vim"]
+	path = sources_plugins/python-vim
+	url = git://github.com/vim-scripts/indentpython.vim.git

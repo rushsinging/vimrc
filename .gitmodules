@@ -115,9 +115,6 @@
 [submodule "sources_plugins/YouCompleteMe"]
 	path = sources_plugins/YouCompleteMe
 	url = git://github.com/Valloric/YouCompleteMe.git
-[submodule "sources_plugins/pyflakes-pathogen"]
-	path = sources_plugins/pyflakes-pathogen
-	url = git://github.com/mitechie/pyflakes-pathogen.git
 [submodule "sources_plugins/vim-snippets"]
 	path = sources_plugins/vim-snippets
 	url = git://github.com/honza/vim-snippets.git
@@ -154,3 +151,6 @@
 [submodule "sources_plugins/python-vim"]
 	path = sources_plugins/python-vim
 	url = git://github.com/vim-scripts/indentpython.vim.git
+[submodule "sources_plugins/vim-markdown"]
+	path = sources_plugins/vim-markdown
+	url = git://github.com/hallison/vim-markdown.git

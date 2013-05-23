@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/jade/.ssh'
 let g:netrw_dirhist_2='/Users/jade/Documents/work/guokrplus/guokr/apps/weixin/weixin/views'
 let g:netrw_dirhist_3='/Users/jade/Documents/work/guokrplus/guokr'
 let g:netrw_dirhist_4='/usr/local/etc/bash_completion.d'
 let g:netrw_dirhist_5='/usr/local/Cellar/protobuf/2.5.0/share/doc/protobuf'
 let g:netrw_dirhist_6='/Users/jade/.vim_runtime/.git/modules/sources_plugins'
+let g:netrw_dirhist_7='/Users/jade/Documents/work/guokrplus/guokr/apps/zone'

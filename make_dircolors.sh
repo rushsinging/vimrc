@@ -1,4 +1,4 @@
-if [ ! -f "~/.vim_runtime/dircolors" ]; then
+if [ -f "~/.vim_runtime/dircolors" ]; then
     rm ~/.vim_runtime/.dircolors
 fi 
 

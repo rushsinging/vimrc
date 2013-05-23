@@ -20,9 +20,6 @@ cd
 cd ~/.vim_runtime/
 git submodule init 
 git submodule update
-cd ~/.vim_runtime/sources_plugins/jedi/
-git submodule init 
-git submodule update
 cd
 sh ~/.vim_runtime/tools/gnome-terminal-colors-solarized/set_dark.sh
 sh ~/.vim_runtime/make_dircolors.sh

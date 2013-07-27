@@ -154,3 +154,9 @@
 [submodule "sources_plugins/ycm-vim"]
 	path = sources_plugins/ycm-vim
 	url = git://github.com/Valloric/YouCompleteMe.git
+[submodule "sources_plugins/rainbow-vim"]
+	path = sources_plugins/rainbow-vim
+	url = git://github.com/kien/rainbow_parentheses.vim.git
+[submodule "sources_plugins/repeat-vim"]
+	path = sources_plugins/repeat-vim
+	url = git://github.com/tpope/vim-repeat.git

@@ -106,7 +106,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 " => syntastic.vim config
 " Annotate strings with gettext http://amix.dk/blog/post/19678
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:syntastic_python_checkers=['pyflakes', 'pylint', 'flake8']
+let g:syntastic_python_checkers=['pyflakes', 'flake8']
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteMe.vim config
@@ -114,4 +114,4 @@ let g:syntastic_python_checkers=['pyflakes', 'pylint', 'flake8']
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 "回车即选中当前项
-inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"" "
+inoremap <expr> <CR>  pumvisible() ? "\<C-y>" : "\<CR>"" "

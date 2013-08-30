@@ -23,7 +23,11 @@ git submodule update
 cd
 sh ~/.vim_runtime/tools/gnome-terminal-colors-solarized/set_dark.sh
 sh ~/.vim_runtime/make_dircolors.sh
-echo "source ~/.vim_runtime/.dircolors" >> ~/.bashrc
+
+touch ~/.viminfo
+sudo chmod 666 ~/.viminfo
+
+echo "source ~/.vim_runtime/.dircolors" >> ~/.bashr
 
 echo
 echo 'If you want to use the solarized colors in the terminal, please make sure you have dircolors and run:

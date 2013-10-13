@@ -27,7 +27,7 @@ sh ~/.vim_runtime/make_dircolors.sh
 touch ~/.viminfo
 sudo chmod 666 ~/.viminfo
 
-echo "source ~/.vim_runtime/.dircolors" >> ~/.bashr
+echo "source ~/.vim_runtime/.dircolors" >> ~/.bashrc
 
 echo
 echo 'If you want to use the solarized colors in the terminal, please make sure you have dircolors and run:

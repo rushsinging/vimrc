@@ -23,6 +23,10 @@ git submodule update
 cd
 sh ~/.vim_runtime/tools/gnome-terminal-colors-solarized/set_dark.sh
 sh ~/.vim_runtime/make_dircolors.sh
+
+touch ~/.viminfo
+sudo chmod 666 ~/.viminfo
+
 echo "source ~/.vim_runtime/.dircolors" >> ~/.bashrc
 
 echo

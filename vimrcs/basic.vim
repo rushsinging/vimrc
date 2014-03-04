@@ -70,8 +70,8 @@ command W w !sudo tee % > /dev/null
 
 
 " For vsplit and split
-map <silent> <leader>e :vsplit<cr>
-map <silent> <leader>E :split<cr>
+map <silent> <leader>e :vsplit <c-r>=expand("%:p:h")<cr>/
+map <silent> <leader>E :split <c-r>=expand("%:p:h")<cr>/
 set splitbelow
 set splitright
 
@@ -236,6 +236,7 @@ map <leader>bd :Bclose<cr>
 map <leader>ba :1,1000 bd!<cr>
 
 " Useful mappings for managing tabs
+map <leader>t :tabnew<cr>
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>

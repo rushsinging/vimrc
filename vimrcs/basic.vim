@@ -70,8 +70,8 @@ command W w !sudo tee % > /dev/null
 
 
 " For vsplit and split
-map <silent> <leader>e :vsplit <c-r>=expand("%:p:h")<cr>/
-map <silent> <leader>E :split <c-r>=expand("%:p:h")<cr>/
+map <leader>e :vsplit <c-r>=expand("%:p:h")<cr>/
+map <leader>E :split <c-r>=expand("%:p:h")<cr>/
 set splitbelow
 set splitright
 

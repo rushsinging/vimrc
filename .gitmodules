@@ -115,9 +115,6 @@
 [submodule "sources_plugins/vim-snippets"]
 	path = sources_plugins/vim-snippets
 	url = git://github.com/honza/vim-snippets.git
-[submodule "sources_plugins/zencoding-vim"]
-	path = sources_plugins/zencoding-vim
-	url = git://github.com/mattn/zencoding-vim.git
 [submodule "sources_plugins/vim-indent-object"]
 	path = sources_plugins/vim-indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object.git
@@ -160,3 +157,6 @@
 [submodule "sources_plugins/repeat-vim"]
 	path = sources_plugins/repeat-vim
 	url = git://github.com/tpope/vim-repeat.git
+[submodule "sources_plugins/emmet-vim"]
+	path = sources_plugins/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git

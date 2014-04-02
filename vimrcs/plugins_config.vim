@@ -115,3 +115,13 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 "回车即选中当前项
 inoremap <expr> <CR>  pumvisible() ? "\<C-y>" : "\<CR>"" "
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => emmet-vim config
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+let g:user_emmet_mode='a'    "enable all function in all mode."
+nmap <leader>h <c-y>,
+imap $h <c-y>,

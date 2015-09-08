@@ -160,3 +160,6 @@
 [submodule "sources_plugins/emmet-vim"]
 	path = sources_plugins/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "sources_plugins/vim-ruby"]
+	path = sources_plugins/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git

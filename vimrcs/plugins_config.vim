@@ -125,3 +125,5 @@ autocmd FileType html,css EmmetInstall
 let g:user_emmet_mode='a'    "enable all function in all mode."
 nmap <leader>h <c-y>,
 imap $h <c-y>,
+
+autocmd FileType ruby compiler ruby

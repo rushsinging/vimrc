@@ -46,7 +46,10 @@
 " Sets how many lines of history VIM has to remember
 set history=700
 
+set nocompatible
+
 " Enable filetype plugins
+filetype on
 filetype plugin on
 filetype indent on
 
@@ -62,7 +65,10 @@ let g:mapleader = ","
 nmap <leader>w :w!<cr>
 
 " For pythoner
-map <F5> :!python %<cr>
+au FileType python map <F5> :!python %<cr>
+
+" For ruby
+au FileType ruby map <F5> :!ruby %<cr>
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
@@ -144,7 +150,7 @@ set nu
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
-syntax enable 
+syntax on
 
 try
     colorscheme desert

@@ -163,3 +163,6 @@
 [submodule "sources_plugins/vim-ruby"]
 	path = sources_plugins/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "sources_plugins/vim-javascript"]
+	path = sources_plugins/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git

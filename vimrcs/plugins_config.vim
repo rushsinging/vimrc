@@ -109,7 +109,8 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 " => syntastic.vim config
 " Annotate strings with gettext http://amix.dk/blog/post/19678
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:syntastic_python_checkers=['pyflakes', 'flake8', 'pep8']
+let g:syntastic_python_checkers=['flake8']
+let g:syntastic_python_flake8_post_args='--max-line-length=120'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteMe.vim config

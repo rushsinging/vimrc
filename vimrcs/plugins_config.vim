@@ -116,6 +116,7 @@ let g:syntastic_python_checkers=['pyflakes', 'flake8', 'pep8']
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_server_keep_logfiles = '/tmp/ycm.log'
 "回车即选中当前项
 inoremap <expr> <CR>  pumvisible() ? "\<C-y>" : "\<CR>"" "
 
